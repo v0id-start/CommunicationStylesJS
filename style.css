@@ -1,0 +1,161 @@
+.modelImg
+{
+
+    height:563px;
+    width:1000px;
+
+}
+
+.cenImg
+{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.cen
+{
+    text-align:center;
+}
+
+.cenUl
+{
+    width: 40%;
+    margin: auto;
+}
+
+.percUl
+{
+    width: 30%;
+    margin: auto;
+    list-style-type: none;
+}
+
+.cenForm
+{
+    width: 55%;
+    margin: auto;
+}
+
+#action
+{
+    height: 25%;
+    width: 25%;
+}
+
+
+h1
+{
+    font-family:"Courier New";
+    font-size:85px;
+
+}
+
+
+h2
+{
+    font-family:"Courier New";
+    font-size:70px;
+}
+
+h3
+{
+    font-family:"Courier New";
+    font-size:65px;
+}
+
+h4
+{
+    font-family:"Courier New";
+    font-size:45px;
+}
+
+body
+{
+    background-color:#F6F6F6;
+}
+
+p
+{
+
+    font-size:35px;
+    font-family:"Courier New";
+    padding: 10px;
+}
+
+ul
+{
+    font-size:35px;
+    font-family:"Courier New";
+
+}
+.cen > ol
+{
+    font-size:35px;
+    display: inline-block;
+    font-family:"Courier New";
+}
+
+li
+{
+    font-size: 35px;
+    text-align:left;
+    color:#252525;
+    padding: 5px;
+}
+
+a:visited
+{
+    color: blue;
+}
+
+h5
+{
+    text-align:center;
+}
+
+input
+{
+    padding-left: 25px;
+}
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+.answer-left{
+    display:inline-block;
+
+}
+
+.answer-right{
+    display:inline-block;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td, th {
+  border: 3px solid #dddddd;
+  font-size: 40px;
+  text-align: left;
+  padding: 15px;
+}
+
+tr:nth-child() {
+  background-color: #dddddd;
+}

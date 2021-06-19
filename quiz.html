@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <script src="script.js"></script>
+    <title>Communication Styles</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+    <body onload="hidePercentages()">
+
+        <div id="radioDiv">
+            <h1 class="cen">Choose One</h1>
+            <br>
+            <br>
+                    <!-- Radio Buttons with answer object text -->
+            <form class="cenForm" action="#" onsubmit="submitAnswer(this);return false">
+                <p><input class="answer-left" id="first" type='radio' value='1' name='choice' required/>
+                <label id="first-label" for="first">I like action.</label></p>
+
+                <p><input class="answer-right" id="second" type='radio' value='2' name='choice' />
+                <label id="second-label" for="second">I deal with problems in a systematic way.</label></p>
+
+                <!-- Submits style text from chosen answer -->
+                <p align="center"><input type="submit" class="button" value="Next"/></p>
+            </form>
+
+        </div>
+
+
+
+        <div id="percentages">
+            <h2 class="cen">Style Percentages:</h2>
+            <ul class="percUl">
+                <li><p id="action-p"><b>Action:</b> {{style_nums[0]}}%</p></li>
+                <li><p id="process-p"><b>Process:</b> {{style_nums[1]}}%</p></li>
+                <li><p id="people-p"><b>People:</b> {{style_nums[2]}}%</p></li>
+                <li><p id="idea-p"><b>Idea:</b> {{style_nums[3]}}%v</p></li>
+            </ul>
+
+            <br>
+
+            <p align="center"><button onclick="goToStylePage()" class="button">Results</button></p>
+
+        </div>
+
+    </body>
+
+
+</html>
