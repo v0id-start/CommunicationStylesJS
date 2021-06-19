@@ -24,6 +24,12 @@
     margin: auto;
 }
 
+.descUl
+{
+    width: 65%;
+    margin: auto;
+}
+
 .percUl
 {
     width: 30%;
@@ -98,10 +104,10 @@ ul
 
 li
 {
-    font-size: 35px;
+    font-size: 40px;
     text-align:left;
     color:#252525;
-    padding: 5px;
+    padding: 20px;
 }
 
 a:visited
@@ -131,6 +137,16 @@ input
   cursor: pointer;
 }
 
+.container {
+  text-align: center;
+}
+
+#bot-element
+{
+  padding: 35px;
+}
+
+
 
 .answer-left{
     display:inline-block;
@@ -158,4 +174,32 @@ td, th {
 
 tr:nth-child() {
   background-color: #dddddd;
+}
+
+#actionB
+{
+    background-color: #f22929;
+}
+
+#processB
+{
+    background-color: #db8035;
+}
+
+#peopleB
+{
+    background-color: #6727e8;
+}
+
+#ideaB
+{
+    background-color: #f3f545;
+}
+
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;
+   padding-bottom: 100px;
 }

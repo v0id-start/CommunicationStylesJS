@@ -3,33 +3,97 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
+    <script src="script.js"></script>
     <title>Communication Styles</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
 
     <body>
         <h3 class="cen">Your Communication Style is:</h3>
-        <b><u><h1 class="cen"> STYLE </h1></u></b>
-        <img src=" IMG " class="cenImg" id="action"/>
-        <hr>
-
-
-        <h3>Action People Are:</h3>
-        <ul>
-            <li>Weird.</li>
-        </ul>
-
-
-
-        <h2 class="cen">Style Percentages</h2>
-        <ul>
-            <li><p id="action-p">Action: {{style_nums[0]}}%</p></li>
-            <li><p id="process-p">Process: {{style_nums[1]}}%</p></li>
-            <li><p id="people-p">People: {{style_nums[2]}}%</p></li>
-            <li><p id="idea-p">Idea: {{style_nums[3]}}%v</p></li>
-        </ul>
+        <b><u><h1 class="cen"> PROCESS </h1></u></b>
+        <img src="Process.png" class="cenImg" id="action"/>
+        <h4 class="cen"><i>Strategies&nbsp;&nbsp;&nbsp;Organization&nbsp;&nbsp;&nbsp;Facts</i></h4>
 
         <br>
-        <p align="center"><a href='/'><button class="button" style="height:75px;width:150px">Restart</button></a></p>
+        <br>
+
+        <h3 class="cen">People With This Style Talk About:</h3>
+        <table class="cen">
+            <tr>
+              <th>Facts</th>
+              <th>Procedures</th>
+              <th>Planning</th>
+
+            </tr>
+            <tr>
+                <th>Organizing</th>
+                <th>Controlling</th>
+                <th>Testing</th>
+            </tr>
+            <tr>
+                <th>Trying out</th>
+                <th>Analysis</th>
+                <th>Observations</th>
+            </tr>
+            <tr>
+                <th>Proof</th>
+                <th>Details</th>
+                <th>Cautious</th>
+
+            </tr>
+
+        </table>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <h3 class="cen">People With This Style Are:</h3>
+        <table class="cen">
+            <tr>
+              <th>Systematic</th>
+              <th>Logical</th>
+              <th>Factual</th>
+
+            </tr>
+            <tr>
+                <th>Verbose</th>
+                <th>Unemotional</th>
+                <th>Patient</th>
+            </tr>
+
+
+        </table>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+
+        <br>
+        <div class="container">
+            <a href='speech.html'><button class="button">Communicate With Each Style</button></a>
+            <a href='index.html'><button class="button">Restart</button></a>
+
+        </div>
+
+        <br>
+
+        <div class="container" id="bot-element">
+
+            <a href='action.html'><button class="button" id="actionB">Action</button></a>
+            <a href='people.html'><button class="button" id="peopleB">People</button></a>
+            <a href='idea.html'><button class="button" id="ideaB">Idea</button></a>
+
+        </div>
+
+
     </body>
 </html>

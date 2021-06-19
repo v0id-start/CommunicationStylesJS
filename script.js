@@ -124,7 +124,7 @@ for (var n in numAnswerDict)
 }
 
 
-var actionTally = 100;
+var actionTally = 0;
 var processTally = 0;
 var peopleTally = 0;
 var ideaTally = 0;
@@ -132,7 +132,7 @@ var ideaTally = 0;
 var userStyle = "";
 var stylePercentages = [0, 0, 0, 0]
 
-var answerIndex = 74;
+var answerIndex = 0;
 
 function renderPair()
 {
@@ -239,8 +239,8 @@ function setPercentages()
     stylePercentages[3] = Math.round((ideaTally/answers.length) * 100)
 
     document.getElementById('action-p').innerHTML = "<b>ACTION:</b> " + stylePercentages[0] + "%";
-    document.getElementById('process-p').innerHTML = "<b>PEOPLE:</b> " + stylePercentages[1] + "%";
-    document.getElementById('people-p').innerHTML = "<b>PROCESS:</b> " + stylePercentages[2] + "%";
+    document.getElementById('process-p').innerHTML = "<b>PROCESS:</b> " + stylePercentages[1] + "%";
+    document.getElementById('people-p').innerHTML = "<b>PEOPLE:</b> " + stylePercentages[2] + "%";
     document.getElementById('idea-p').innerHTML = "<b>IDEA:</b> " + stylePercentages[3] + "%";
 }
 
