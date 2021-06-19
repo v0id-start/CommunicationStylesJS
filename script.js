@@ -164,8 +164,8 @@ function submitAnswer(form)
         userStyle = getUserStyle();
         console.log("END" + userStyle);
 
-        setPercentages();
-
+        //setPercentages();
+        goToStylePage();
 
     }
     else
@@ -233,10 +233,10 @@ function setPercentages()
 {
     document.getElementById("percentages").style.display = "block";
     document.getElementById("radioDiv").style.display = "none";
-    stylePercentages[0] = Math.round((actionTally/answers.length) * 100)
-    stylePercentages[1] = Math.round((processTally/answers.length) * 100)
-    stylePercentages[2] = Math.round((peopleTally/answers.length) * 100)
-    stylePercentages[3] = Math.round((ideaTally/answers.length) * 100)
+    stylePercentages[0] = Math.round((actionTally/answers.length) * 100) * 2
+    stylePercentages[1] = Math.round((processTally/answers.length) * 100) * 2
+    stylePercentages[2] = Math.round((peopleTally/answers.length) * 100) * 2
+    stylePercentages[3] = Math.round((ideaTally/answers.length) * 100) * 2
 
     document.getElementById('action-p').innerHTML = "<b>ACTION:</b> " + stylePercentages[0] + "%";
     document.getElementById('process-p').innerHTML = "<b>PROCESS:</b> " + stylePercentages[1] + "%";
